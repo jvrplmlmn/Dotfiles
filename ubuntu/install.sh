@@ -20,3 +20,9 @@ if [ ! $(which rbenv) ]; then
   # This source only works in the scope of the script, outside we need to reload
   . ~/.zshrc.d/01_rbenv.sh
 fi
+
+# Instals Ruby and make it global
+# https://www.ruby-lang.org/en/downloads/`
+rbenv install 2.2.0
+rbenv global 2.2.0
+
