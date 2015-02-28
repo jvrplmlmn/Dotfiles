@@ -4,4 +4,5 @@ curl
 htop
 iotop
 iftop
+iptraf
 terminator
