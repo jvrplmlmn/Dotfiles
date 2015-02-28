@@ -1,0 +1,7 @@
+name             'example'
+maintainer       'Javier Palomo Almena'
+maintainer_email 'javier.palomo.almena@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures example'
+long_description 'Installs/Configures example'
+version          '0.1.0'
