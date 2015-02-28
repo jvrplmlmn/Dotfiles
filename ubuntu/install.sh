@@ -28,3 +28,8 @@ rbenv global 2.2.0
 
 # http://bundler.io/
 gem install bundler
+
+# Download and Install ChefDK
+wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_0.4.0-1_amd64.deb -o /tmp/chefdk.deb
+sudo dpkg -i /tmp/chefdk.deb
+
