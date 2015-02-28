@@ -7,3 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 Chef::Log.info('ZZZzzZZZzzzZZZzzzZZZZz')
+
+package 'zsh'
