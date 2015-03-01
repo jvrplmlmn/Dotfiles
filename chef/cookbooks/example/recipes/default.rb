@@ -8,4 +8,19 @@
 #
 Chef::Log.info('ZZZzzZZZzzzZZZzzzZZZZz')
 
-package 'zsh'
+
+
+%w{
+git-core
+vim
+curl
+htop
+iotop
+iftop
+iptraf
+terminator
+}.each do |pkg|
+  package pkg do
+    action :upgrade
+  end
+end
